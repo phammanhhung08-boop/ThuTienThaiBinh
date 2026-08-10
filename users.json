@@ -1,9 +1,14 @@
 {
-  "cap_nhat_luc": "10/08/2026 10:36:39",
-  "tong_so": 1,
+  "cap_nhat_luc": "10/08/2026 10:55:26",
+  "tong_so": 2,
   "users": [
     {
       "username": "test",
+      "ho_ten": "",
+      "pass_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "username": "test01",
       "ho_ten": "",
       "pass_hash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
     }

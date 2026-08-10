@@ -19,7 +19,7 @@
         const LOGIN_USERS_URLS = [
             `users.json?t=${Date.now()}`,
             `../users.json?t=${Date.now()}`,
-            `https://raw.githubusercontent.com/nguyentuan86pctb-cpu/ThuTienThaiBinh/main/users.json?t=${Date.now()}`
+            `https://raw.githubusercontent.com/phammanhhung08-boop/ThuTienThaiBinh/main/users.json?t=${Date.now()}`
         ];
 
         // Bản bàn giao không gửi IP hoặc lịch sử đăng nhập ra dịch vụ bên ngoài.
@@ -1325,8 +1325,8 @@ async function taiJsonDuNo() {
     const stamp = Date.now();
     const urls = [
         // Luon doc du lieu moi tu GitHub, khong lay file data tren Vercel.
-        `https://raw.githubusercontent.com/nguyentuan86pctb-cpu/ThuTienThaiBinh/main/data_duno.json?t=${stamp}`,
-        `https://cdn.jsdelivr.net/gh/nguyentuan86pctb-cpu/ThuTienThaiBinh@main/data_duno.json?t=${stamp}`
+        `https://raw.githubusercontent.com/phammanhhung08-boop/ThuTienThaiBinh/main/data_duno.json?t=${stamp}`,
+        `https://cdn.jsdelivr.net/gh/phammanhhung08-boop/ThuTienThaiBinh@main/data_duno.json?t=${stamp}`
     ];
     let lastError = '';
 

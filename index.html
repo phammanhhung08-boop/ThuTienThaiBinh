@@ -1678,7 +1678,7 @@ async function taiDuLieuDuNo() {
             let ma = $(this).data('makh');
             let baoCao = layDuLieuBaoCaoZalo(ma, { ten: $(this).data('ten'), tram: $(this).data('tram'), cot: $(this).data('cot') });
             let ten = baoCao.ten || $(this).data('ten') || '';
-            let msg = `[\u0110I\u1EC6N L\u1EF0C TI\u1EC0N H\u1EA2I]\n- T\u00EAn KH: ${baoCao.ten || ''}\n- M\u00E3 KH: ${baoCao.ma || ''}\n- S\u1ED5 GCS: ${baoCao.soGCS || ''}\n- S\u1ED1 \u0110i\u1EC7n Tho\u1EA1i: ${baoCao.sdt || ''}\n- Tr\u1EA1m: ${baoCao.tram || ''} / C\u1ED9t: ${baoCao.cot || ''}\n- S\u1ED1 Ti\u1EC1n N\u1EE3: ${baoCao.tien || ''}\n- Ghi ch\u00FA: ${baoCao.ghiChu || ''}`;
+            let msg = `[\u0110I\u1EC6N L\u1EF0C TH\u00C1I B\u00CCNH]\n- T\u00EAn KH: ${baoCao.ten || ''}\n- M\u00E3 KH: ${baoCao.ma || ''}\n- S\u1ED5 GCS: ${baoCao.soGCS || ''}\n- S\u1ED1 \u0110i\u1EC7n Tho\u1EA1i: ${baoCao.sdt || ''}\n- Tr\u1EA1m: ${baoCao.tram || ''} / C\u1ED9t: ${baoCao.cot || ''}\n- S\u1ED1 Ti\u1EC1n N\u1EE3: ${baoCao.tien || ''}\n- Ghi ch\u00FA: ${baoCao.ghiChu || ''}`;
             let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
             if (navigator.share && isMobile) {
                 navigator.share({ text: msg }).catch((error) => console.log('Lỗi chia sẻ:', error));
